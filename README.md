@@ -1,6 +1,6 @@
 # The Changing Landscape of Medical Vision-Language Models — Supplementary Material
 
-Supplementary material for: Y.-C. Jee, W. Kim, H.-Y. Ahn, "The Changing Landscape of Medical Vision-Language Models: A Quantitative Survey of 1,217 arXiv Papers, 2024–2026", ICT4sHealth 2026.
+Supplementary material for: Youchan Jee, Woojae Kim, Hoyeon Ahn, "The Changing Landscape of Medical Vision-Language Models: A Quantitative Survey of 1,217 arXiv Papers, 2024–2026", ICT4sHealth 2026.
 
 Repository: https://github.com/fofifafo/medical-vlm-landscape-2026
 
