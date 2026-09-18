@@ -1,0 +1,151 @@
+n,arxiv_id,year,title,rule_chest_xray,rule_ct_mri_3d,rule_pathology_wsi,rule_endoscopy_surgical,rule_report_generation,rule_grounding_localization,rule_clinical_decision,rule_reasoning_technique,rule_agents_tool_use,rule_efficiency_technique,rule_hallucination_explicit,rule_clinical_validation,claude_chest_xray,claude_ct_mri_3d,claude_pathology_wsi,claude_endoscopy_surgical,claude_report_generation,claude_grounding_localization,claude_clinical_decision,claude_reasoning_technique,claude_agents_tool_use,claude_efficiency_technique,claude_hallucination_explicit,claude_clinical_validation
+1,2604.16175,2026,MARCH: Multi-Agent Radiology Clinical Hierarchy for CT Report Generation,X,O,X,X,O,X,X,X,O,X,O,X,X,O,X,X,O,X,X,X,O,X,O,X
+2,2607.00060,2026,Synergistic Perception-Reasoning Governance: Grounding Medical MLLMs with Verifiable Anatomical Evidence,X,X,X,X,O,O,X,X,X,X,O,X,X,X,X,X,O,X,X,X,X,X,O,X
+3,2511.15943,2025,Boosting Medical Visual Understanding From Multi-Granular Language Learning,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+4,2509.13145,2025,UTI-LLM: A Personalized Articulatory-Speech Therapy Assistance System Based on Multimodal Large Language Model,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+5,2607.06626,2026,Reward Valuation in Vision Language Models: Causal Mechanisms Underlying Anhedonia,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+6,2609.00396,2026,SlideMix: Enhancing Whole Slide Image Analysis via Multimodal Shuffling,X,X,O,X,X,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X
+7,2409.01883,2024,Boosting Vision-Language Models for Histopathology Classification: Predict all at once,X,X,O,X,X,X,X,X,X,O,X,X,X,X,O,X,X,X,X,X,X,X,X,X
+8,2510.02001,2025,Generating Findings for Jaw Cysts in Dental Panoramic Radiographs Using a GPT-Based VLM: A Preliminary Study on Building a Two-Stage Self-Correction Loop with Structured Output (SLSO) Framework,O,X,O,X,X,X,X,O,X,X,O,O,X,X,X,X,O,X,X,X,X,X,O,X
+9,2603.15513,2026,ViX-Ray: A Vietnamese Chest X-Ray Dataset for Vision-Language Models,O,X,X,X,O,X,X,X,X,X,O,X,O,X,X,X,O,X,X,X,X,X,O,X
+10,2503.17238,2025,Slide-Level Prompt Learning with Vision Language Models for Few-Shot Multiple Instance Learning in Histopathology,X,X,O,X,X,X,X,X,X,X,X,O,X,X,O,X,X,X,X,X,X,X,X,X
+11,2508.20549,2025,MedGR$^2$: Breaking the Data Barrier for Medical Reasoning via Generative Reward Learning,X,X,X,X,X,X,X,O,X,O,X,X,X,X,X,X,X,X,X,O,X,X,X,X
+12,2408.16769,2024,PromptSmooth: Certifying Robustness of Medical Vision-Language Models via Prompt Learning,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+13,2506.11166,2025,Test-Time-Scaling for Zero-Shot Diagnosis with Visual-Language Reasoning,X,X,O,X,X,X,O,X,X,X,X,X,X,X,O,X,X,X,X,O,X,X,X,X
+14,2606.25246,2026,Multilingual Hematology Visual Question Answering Dataset,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+15,2506.07044,2025,Lingshu: A Generalist Foundation Model for Unified Multimodal Medical Understanding and Reasoning,X,X,X,X,O,X,X,O,X,O,O,X,X,X,X,X,O,X,X,O,X,X,O,X
+16,2503.20047,2025,Med3DVLM: An Efficient Vision-Language Model for 3D Medical Image Analysis,X,O,X,X,O,X,X,X,X,O,X,X,X,O,X,X,O,X,X,X,X,O,X,X
+17,2508.13068,2025,Eyes on the Image: Gaze Supervised Multimodal Learning for Chest X-ray Diagnosis and Report Generation,O,X,X,X,O,O,X,X,X,X,X,X,O,X,X,X,O,O,X,X,X,X,X,X
+18,2604.08203,2026,MedVR: Annotation-Free Medical Visual Reasoning via Agentic Reinforcement Learning,X,X,X,X,X,O,X,O,O,O,O,O,X,X,X,X,X,X,X,O,X,X,X,X
+19,2407.02604,2024,D-Rax: Domain-specific Radiologic assistant leveraging multi-modal data and eXpert model predictions,O,X,X,X,X,X,X,X,X,X,O,X,O,X,X,X,X,X,X,X,X,X,X,X
+20,2506.22900,2025,MOTOR: Multimodal Optimal Transport via Grounded Retrieval in Medical Visual Question Answering,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,O
+21,2408.03043,2024,Targeted Visual Prompting for Medical Visual Question Answering,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+22,2605.09679,2026,DeepTumorVQA: A Hierarchical 3D CT Benchmark for Stage-Wise Evaluation of Medical VLMs and Tool-Augmented Agents,X,O,X,X,X,X,X,X,O,X,X,X,X,O,X,X,X,X,X,X,O,X,X,X
+23,2403.02558,2024,The Minimum Information about CLinical Artificial Intelligence Checklist for Generative Modeling Research (MI-CLAIM-GEN),X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+24,2407.02716,2024,Light-weight Fine-tuning Method for Defending Adversarial Noise in Pre-trained Medical Vision-Language Models,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,O,X,X
+25,2410.14200,2024,E3D-GPT: Enhanced 3D Visual Foundation for Medical Vision-Language Model,X,O,X,X,O,X,X,X,X,X,X,X,X,O,X,X,O,X,X,X,X,O,X,X
+26,2502.11651,2025,MMXU: A Multi-Modal and Multi-X-ray Understanding Dataset for Disease Progression,O,X,X,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X
+27,2606.31599,2026,Token-Sparse Medical Multimodal Reasoning via Dual-Stream Reinforcement Learning,X,X,X,X,X,O,O,O,X,O,X,X,X,X,X,X,X,O,X,O,X,O,X,X
+28,2404.17779,2024,Medical Vision-Language Pre-Training for Brain Abnormalities,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+29,2506.05127,2025,PixCell: A generative foundation model for digital histopathology images,X,X,O,X,X,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X
+30,2509.24888,2025,MMRQA: Signal-Enhanced Multimodal Large Language Models for MRI Quality Assessment,X,O,X,X,X,X,O,X,X,O,X,X,X,O,X,X,X,X,X,X,X,O,X,X
+31,2603.21693,2026,Deterministic Hallucination Detection in Medical VQA via Confidence-Evidence Bayesian Gain,X,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X,O,X
+32,2405.10301,2024,Conformal Alignment: Knowing When to Trust Foundation Models with Guarantees,X,X,X,X,O,X,X,X,X,O,X,X,X,X,X,X,O,X,X,X,X,X,X,X
+33,2511.02996,2025,SCALE-VLP: Soft-Weighted Contrastive Volumetric Vision-Language Pre-training with Spatial-Knowledge Semantics,X,O,X,X,O,X,X,X,X,X,X,X,X,O,X,X,O,X,X,X,X,X,X,X
+34,2601.14084,2026,DermaBench: A Clinician-Annotated Benchmark Dataset for Dermatology Visual Question Answering and Reasoning,X,X,X,X,X,O,O,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+35,2402.08966,2024,Pretraining Vision-Language Model for Difference Visual Question Answering in Longitudinal Chest X-rays,O,X,X,X,X,X,X,X,X,X,X,O,O,X,X,X,X,X,X,X,X,X,X,X
+36,2403.19880,2024,Vision-Language Synthetic Data Enhances Echocardiography Downstream Tasks,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+37,2505.10993,2025,"Content Generation Models in Computational Pathology: A Comprehensive Survey on Methods, Applications, and Challenges",X,X,O,X,X,X,X,X,X,O,X,O,X,X,O,X,X,X,X,X,X,X,X,X
+38,2608.17926,2026,PerFact: Perception-Derived Fact Prompting for 3D Brain MRI Report Generation,O,O,X,X,O,O,X,X,X,O,X,X,X,O,X,X,O,X,X,X,X,O,X,X
+39,2510.18304,2025,The Impact of Image Resolution on Biomedical Multimodal Large Language Models,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+40,2511.10065,2025,RadHiera: Semantic Hierarchical Reinforcement Learning for Medical Report Generation,O,X,X,X,O,X,X,O,X,X,O,X,O,X,X,X,O,X,X,O,X,X,O,X
+41,2603.05184,2026,Logi-PAR: Logic-Infused Patient Activity Recognition via Differentiable Rule,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+42,2410.14948,2024,SemiHVision: Enhancing Medical Multimodal Models with a Semi-Human Annotated Dataset and Fine-Tuned Instruction Generation,X,X,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,O,X,X,X,X,X
+43,2603.06340,2026,K-MaT: Knowledge-Anchored Manifold Transport for Cross-Modal Prompt Learning in Medical Imaging,O,O,X,X,X,X,X,X,X,X,X,X,O,O,X,X,X,X,X,X,X,X,X,X
+44,2407.00203,2024,PathGen-1.6M: 1.6 Million Pathology Image-text Pairs Generation through Multi-agent Collaboration,X,X,O,X,X,X,X,X,O,X,X,X,X,X,O,X,X,X,X,X,O,X,X,X
+45,2402.03783,2024,Exploring Low-Resource Medical Image Classification with Weakly Supervised Prompt Learning,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+46,2410.20165,2024,Diff-CXR: Report-to-CXR generation through a disease-knowledge enhanced diffusion model,O,X,X,X,O,X,X,X,X,X,X,X,O,X,X,X,O,X,X,X,X,X,X,X
+47,2412.00056,2024,Improving Medical Diagnostics with Vision-Language Models: Convex Hull-Based Uncertainty Analysis,O,X,X,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X
+48,2412.13126,2024,Knowledge-enhanced Pretraining for Vision-language Pathology Foundation Model on Cancer Diagnosis,X,X,O,X,X,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X
+49,2605.22872,2026,MedExpMem: Adapting Experience Memory for Differential Diagnosis,X,X,X,X,X,X,O,X,O,X,X,O,X,X,X,X,X,X,O,X,O,X,X,X
+50,2406.16143,2024,Review of Zero-Shot and Few-Shot AI Algorithms in The Medical Domain,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+51,2607.02571,2026,Dual-Adaptive SAM3: Hierarchical Routing over Low-Rank Expert Layers for Parameter-Efficient Medical Image Segmentation,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X,O,X,X
+52,2410.15074,2024,LLaVA-Ultra: Large Chinese Language and Vision Assistant for Ultrasound,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X,O,X,X
+53,2410.13085,2024,MMed-RAG: Versatile Multimodal RAG System for Medical Vision Language Models,X,X,O,X,O,X,O,X,X,O,O,X,X,X,O,X,O,X,X,O,X,X,O,X
+54,2603.06999,2026,TrajPred: Trajectory-Conditioned Joint Embedding Prediction for Surgical Instrument-Tissue Interaction Recognition in Vision-Language Models,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X
+55,2506.22500,2025,OR-VSKC: Resolving Visual-Semantic Knowledge Conflicts in Operating Rooms with Synthetic Data-Guided Alignment,X,X,X,X,X,X,X,X,X,X,X,O,X,X,X,O,X,X,X,X,X,X,X,X
+56,2410.05450,2024,AI-Driven Early Mental Health Screening: Analyzing Selfies of Pregnant Women,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+57,2608.12928,2026,Polish Medical Visual Question Answering: Vision-Language Models Underutilize Visual Evidence,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+58,2606.20477,2026,Scalable Training of Spatially Grounded 2D Vision-Language Models for Radiology,X,O,X,X,O,O,X,X,X,X,X,O,X,O,X,X,O,O,X,X,X,X,X,X
+59,2410.09750,2024,Surgical-LLaVA: Toward Surgical Scenario Understanding via Large Language and Vision Models,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X
+60,2512.14732,2025,INFORM-CT: INtegrating LLMs and VLMs FOR Incidental Findings Management in Abdominal CT,X,O,X,X,X,X,X,X,O,O,X,X,X,O,X,X,O,O,X,X,O,X,X,X
+61,2509.23344,2025,DentVLM: A Multimodal Vision-Language Model for Comprehensive Dental Diagnosis and Enhanced Clinical Practice,X,X,X,X,X,X,O,X,O,X,X,O,X,X,X,X,X,X,O,X,O,X,X,O
+62,2603.15557,2026,Anatomy of a Lie: A Multi-Stage Diagnostic Framework for Tracing Hallucinations in Vision-Language Models,X,X,O,X,X,X,X,X,X,O,O,X,X,X,X,X,X,X,X,X,X,X,O,X
+63,2603.23953,2026,VOLMO: Versatile and Open Large Models for Ophthalmology,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X,O,X,X,X,X,O
+64,2603.29492,2026,Calibrated Confidence Expression for Radiology Report Generation,X,X,X,X,O,X,O,O,X,X,O,X,X,X,X,X,O,X,X,O,X,X,X,O
+65,2602.23652,2026,3D Modality-Aware Pre-training for Vision-Language Model in MRI Multi-organ Abnormality Detection,X,O,X,X,X,O,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X
+66,2410.05239,2024,TuneVLSeg: Prompt Tuning Benchmark for Vision-Language Segmentation Models,O,X,O,X,X,X,X,X,X,O,X,X,O,X,X,O,X,X,X,X,X,X,X,X
+67,2411.16778,2024,"GEMeX: A Large-Scale, Groundable, and Explainable Medical VQA Benchmark for Chest X-ray Diagnosis",O,X,X,X,X,X,X,X,X,X,X,X,O,X,X,X,X,O,X,X,X,X,X,X
+68,2512.06581,2025,MedGRPO: Multi-Task Reinforcement Learning for Heterogeneous Medical Video Understanding,X,X,X,X,X,O,X,O,X,X,X,X,X,X,X,X,X,O,X,O,X,X,X,X
+69,2507.09097,2025,RadEyeVideo: Enhancing general-domain Large Vision Language Model for chest X-ray analysis with video representations of eye gaze,O,X,X,X,O,X,X,X,X,X,X,X,O,X,X,X,O,X,X,X,X,X,X,X
+70,2508.20830,2025,Estimating 2D Keypoints of Surgical Tools Using Vision-Language Models with Low-Rank Adaptation,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,O,X,X,X,X,X,O,X,X
+71,2602.18064,2026,3DMedAgent: Unified Perception-to-Understanding for 3D Medical Analysis,X,O,X,X,X,X,X,X,O,X,X,X,X,O,X,X,X,X,X,X,O,X,X,X
+72,2504.05227,2025,A Reality Check of Vision-Language Pre-training in Radiology: Have We Progressed Using Text?,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+73,2410.12722,2024,"WorldMedQA-V: a multilingual, multimodal medical examination dataset for multimodal language models evaluation",X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+74,2502.05928,2025,ClinKD: Cross-Modal Clinical Knowledge Distiller For Multi-Task Medical Images,X,X,X,X,X,O,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+75,2604.08815,2026,Towards Responsible Multimodal Medical Reasoning via Context-Aligned Vision-Language Models,O,X,X,X,X,X,X,X,X,X,O,X,O,X,X,X,X,X,X,X,X,X,O,X
+76,2410.17827,2024,RE-tune: Incremental Fine Tuning of Biomedical Vision-Language Models for Multi-label Chest X-ray Classification,O,X,X,X,X,X,X,X,X,O,X,O,O,X,X,X,X,X,X,X,X,O,X,X
+77,2605.26283,2026,"Benchmarking Convolutional, Transformer, Hybrid, and Vision Language Models for Multi Disease Retinal Screening",X,X,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X,X
+78,2407.02730,2024,MedVH: Towards Systematic Evaluation of Hallucination for Large Vision Language Models in the Medical Context,X,X,X,X,X,X,X,X,X,X,O,O,X,X,X,X,X,X,X,X,X,X,O,X
+79,2604.13561,2026,CLIP Architecture for Abdominal CT Image-Text Alignment and Zero-Shot Learning: Investigating Batch Composition and Data Scaling,X,O,X,X,O,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X
+80,2606.20913,2026,PROTON: Prototype-Based Test-Time Online OOD Detection for Medical VLMs,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+81,2510.04281,2025,RetiBridge: Bridging Quantitative Retinal Biomarkers and Qualitative Diagnosis with a Knowledge-Guided Multimodal Large Language Model,X,X,X,X,O,O,X,X,X,O,X,X,X,X,X,X,O,X,X,X,X,O,X,X
+82,2607.01814,2026,MMIR-TCM: Memory-Integrated Multimodal Inference and Retrieval for TCM Clinical Decision Support,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X
+83,2407.21368,2024,Prompting Medical Large Vision-Language Models to Diagnose Pathologies by Visual Question Answering,O,X,O,X,X,X,X,X,X,X,O,X,O,X,X,X,X,X,X,X,X,X,O,X
+84,2509.18638,2025,Learning neuroimaging models from health system-scale data,X,O,X,X,X,X,X,X,X,X,X,O,X,O,X,X,X,X,O,X,X,X,X,O
+85,2412.02177,2024,Anatomically-Grounded Fact Checking of Automated Chest X-ray Reports,O,X,X,X,O,X,X,X,X,X,X,X,O,X,X,X,O,X,X,X,X,X,O,X
+86,2401.06331,2024,Application Of Vision-Language Models For Assessing Osteoarthritis Disease Severity,O,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+87,2602.23817,2026,Footprint-Guided Exemplar-Free Continual Histopathology Report Generation,X,X,O,X,O,X,X,X,X,O,X,O,X,X,O,X,O,X,X,X,X,X,X,X
+88,2510.06131,2025,Discrete Diffusion Models with MLLMs for Unified Medical Multimodal Generation,O,X,O,X,O,X,X,X,X,X,X,X,O,X,O,X,O,X,X,X,X,X,X,X
+89,2405.20775,2024,Medical MLLM is Vulnerable: Cross-Modality Jailbreak and Mismatched Attacks on Medical Multimodal Large Language Models,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+90,2407.07360,2024,Towards a text-based quantitative and explainable histopathology image analysis,X,X,O,X,X,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X
+91,2601.14406,2026,Large-Scale Label Quality Assessment for Medical Segmentation via a Vision-Language Judge and Synthetic Data,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+92,2601.01875,2026,Toward Auditable Neuro-Symbolic Reasoning in Pathology: SQL as an Explicit Trace of Evidence,X,X,O,X,X,X,X,X,O,X,X,X,X,X,O,X,X,X,X,X,O,X,X,X
+93,2403.06407,2024,Can LLMs' Tuning Methods Work in Medical Multimodal Domain?,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X,O,X,X
+94,2410.01620,2024,LMOD: A Large Multimodal Ophthalmology Dataset and Benchmark for Large Vision-Language Models,X,X,X,O,X,X,X,X,X,X,O,X,X,X,X,O,X,X,X,X,X,X,O,X
+95,2502.16223,2025,Prompt as Knowledge Bank: Boost Vision-language model via Structural Representation for zero-shot medical detection,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X,O,X,O,X,X,X,X,X,X
+96,2608.08402,2026,Agentic AI-powered flexible fiber-bundle endoscopy for high-resolution NIR-II fluorescence imaging in vivo,X,X,X,O,X,X,X,X,O,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X
+97,2602.20423,2026,MedCLIPSeg: Probabilistic Vision-Language Adaptation for Data-Efficient and Generalizable Medical Image Segmentation,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+98,2510.11196,2025,Evaluating Reasoning Faithfulness in Medical Vision-Language Models using Multimodal Perturbations,O,X,X,X,X,O,X,O,X,X,X,O,O,X,X,X,X,X,X,O,X,X,X,O
+99,2410.06420,2024,ERVQA: A Dataset to Benchmark the Readiness of Large Vision Language Models in Hospital Environments,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+100,2410.15881,2024,MI-VisionShot: Few-shot adaptation of vision-language models for slide-level classification of histopathological images,X,X,O,X,X,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X
+101,2502.00528,2025,Vision-Language Modeling in PET/CT for Visual Grounding of Positive Findings,X,O,X,X,O,O,X,X,X,X,X,X,X,O,X,X,X,O,X,X,X,X,X,O
+102,2506.16962,2025,Chiron-o1: Igniting Multimodal Large Language Models towards Generalizable Medical Reasoning via Mentor-Intern Collaborative Search,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X,O,X,X,X,X
+103,2403.16501,2024,Learning To Guide Human Decision Makers With Vision-Language Models,X,X,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,O,X,X,X,X,X
+104,2411.02753,2024,Label Critic: Design Data Before Models,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+105,2503.10265,2025,SurgRAW: Multi-Agent Workflow with Chain of Thought Reasoning for Robotic Surgical Video Analysis,X,X,X,O,X,X,X,O,O,X,O,X,X,X,X,O,X,X,X,O,O,X,O,X
+106,2403.13756,2024,Enhancing Gait Video Analysis in Neurodegenerative Diseases by Knowledge Augmentation in Vision Language Model,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+107,2510.03160,2025,"SpineBench: A Clinically Salient, Level-Aware Benchmark Powered by the SpineMed-450k Corpus",O,O,O,X,O,X,O,X,X,X,X,X,X,O,X,X,O,X,O,X,X,X,X,O
+108,2502.19285,2025,On the Importance of Text Preprocessing for Multimodal Representation Learning and Pathology Report Generation,X,X,O,X,O,X,X,X,X,X,O,X,X,X,O,X,O,X,X,X,X,X,O,O
+109,2410.11761,2024,SlideChat: A Large Vision-Language Assistant for Whole-Slide Pathology Image Understanding,X,X,O,X,X,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X
+110,2508.13256,2025,CardAIc-Agents: A Multimodal Framework with Hierarchical Adaptation for Cardiac Care Support,X,X,X,X,X,X,X,X,O,O,X,X,X,X,X,X,X,X,O,X,O,X,X,X
+111,2410.04521,2024,MC-CoT: A Modular Collaborative CoT Framework for Zero-shot Medical-VQA with LLM and MLLM Integration,X,X,X,X,X,X,X,O,X,X,X,X,X,X,O,X,X,X,X,O,X,X,X,X
+112,2606.19950,2026,Confidence Calibration for Multimodal LLMs: An Empirical Study through Medical VQA,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+113,2507.09222,2025,Calibrated and Robust Foundation Models for Vision-Language and Medical Image Tasks Under Distribution Shift,X,X,X,X,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X
+114,2409.00084,2024,"Vision-Language and Large Language Model Performance in Gastroenterology: GPT, Claude, Llama, Phi, Mistral, Gemma, and Quantized Models",X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X,O,X,X
+115,2603.05421,2026,DARK: Diagonal-Anchored Repulsive Knowledge Distillation for Vision-Language Models under Extreme Compression,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X,O,X,X
+116,2605.01779,2026,MedScribe: Clinically Grounded CT Reporting through Agentic Workflows,X,O,O,X,O,O,X,X,O,X,O,X,X,O,X,X,O,X,X,X,O,X,O,X
+117,2508.01016,2025,Diagnostic Accuracy of Open-Source Vision-Language Models on Diverse Medical Imaging Tasks,O,X,O,O,X,X,X,O,X,X,X,X,O,X,O,O,X,X,X,O,X,X,X,X
+118,2505.18503,2025,Focus on What Matters: Enhancing Medical Vision-Language Models with Automatic Attention Alignment Tuning,X,X,X,X,O,X,X,X,X,X,O,X,X,X,X,X,O,X,X,X,X,X,O,X
+119,2608.22363,2026,Analyzing and Mitigating Cross-Lingual Degradation in Multilingual Medical VQA,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+120,2606.27596,2026,Dismantling Pathological Shortcuts: A Causal Framework for Faithful LVLM Decoding,X,X,O,X,X,O,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X,O,X
+121,2603.20698,2026,Clinical Cognition Alignment for Gastrointestinal Diagnosis with Multimodal LLMs,X,X,X,O,X,O,X,O,X,X,X,X,X,X,X,O,X,X,X,O,X,X,X,X
+122,2401.06400,2024,Generalizing Visual Question Answering from Synthetic to Human-Written Questions via a Chain of QA with a Large Language Model,O,X,X,X,X,X,X,X,X,O,X,X,O,X,X,X,X,X,X,O,X,X,X,X
+123,2512.17396,2025,RadImageNet-VQA: A Large-Scale CT and MRI Dataset for Radiologic Visual Question Answering,O,O,O,X,X,O,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X
+124,2510.12267,2025,SpineBench: Benchmarking Multimodal LLMs for Spinal Pathology Analysis,X,X,O,X,X,O,X,X,X,X,X,O,X,X,X,X,X,O,X,X,X,X,X,X
+125,2511.19046,2025,MedSAM3: Delving into Segment Anything with Medical Concepts,O,O,X,X,X,X,X,X,O,X,X,X,O,O,X,X,X,X,X,X,O,X,X,X
+126,2605.26376,2026,BioFact-MoE: Biologically Factorized Mixture of Experts for Vision-Language Prognostic Modeling in Hepatocellular Carcinoma,X,O,X,X,O,X,X,X,X,X,X,O,X,O,X,X,X,X,X,X,X,X,X,X
+127,2505.16647,2025,"Point, Detect, Count: Multi-Task Medical Image Understanding with Instruction-Tuned Vision-Language Models",X,X,X,O,X,O,X,X,X,O,X,X,X,X,X,O,X,O,X,X,X,O,X,X
+128,2605.15574,2026,MI-CXR: A Benchmark for Longitudinal Reasoning over Multi-Interval Chest X-rays,O,X,X,X,O,O,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X
+129,2504.18453,2025,Reason Like a Radiologist: Chain-of-Thought and Reinforcement Learning for Verifiable Report Generation,X,X,X,X,O,O,X,O,X,O,X,X,X,X,X,X,O,O,X,O,X,X,X,X
+130,2407.00557,2024,Explaining Chest X-ray Pathology Models using Textual Concepts,O,X,O,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X
+131,2602.19178,2026,EMAD: Evidence-Centric Grounded Multimodal Diagnosis for Alzheimer's Disease,X,O,X,X,X,O,X,O,X,O,X,X,X,O,X,X,O,O,X,O,X,X,X,X
+132,2504.18800,2025,Video CLIP Model for Multi-View Echocardiography Interpretation,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+133,2608.30352,2026,Co-Annotator: Expert-Distilled ViT and VLM for Visual and Documentation Guidance in Age-Related Macular Degeneration,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X,X,X,O
+134,2412.13558,2024,Read Like a Radiologist: Efficient Vision-Language Model for 3D Medical Imaging Interpretation,X,O,X,X,O,X,X,X,X,O,X,X,X,O,X,X,O,X,X,X,X,O,X,X
+135,2506.18378,2025,Taming Vision-Language Models for Medical Image Analysis: A Comprehensive Review,X,X,O,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X,X
+136,2606.07549,2026,PathoSage: Towards Multi-Source Evidence Adjudication in Pathology via Experience-Aware Agentic Workflow,X,X,O,X,X,X,X,X,O,X,O,X,X,X,O,X,X,X,X,X,O,X,O,X
+137,2512.17326,2025,Democratising Pathology Co-Pilots: An Open Pipeline and Dataset for Whole-Slide Vision-Language Modelling,X,X,O,X,X,X,O,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X
+138,2607.27122,2026,Towards Grounded GI Endoscopy VQA via Multi-Task Learning on Small VLMs,X,X,X,O,X,O,X,X,X,X,X,X,X,X,X,O,X,O,X,X,X,O,X,X
+139,2405.08603,2024,A Comprehensive Survey of Large Language Models and Multimodal Large Language Models in Medicine,X,X,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X,X
+140,2407.15728,2024,SAM2CLIP2SAM: Vision Language Model for Segmentation of 3D CT Scans for Covid-19 Detection,X,O,X,X,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X
+141,2511.20490,2025,MTBBench: A Multimodal Sequential Clinical Decision-Making Benchmark in Oncology,X,X,X,X,X,X,O,X,O,X,O,O,X,X,X,X,X,X,O,X,O,X,O,X
+142,2510.15866,2025,BiomedXPro: Prompt Optimization for Explainable Diagnosis with Biomedical Vision Language Models,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+143,2606.11106,2026,FADA: Accessible fetal ultrasound interpretation and annotation with a selectively distilled unified vision-language model,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,O,X,X,X,O,X,O
+144,2606.10066,2026,A Controlled Audit of Pretraining Contamination in Public Medical Vision-Language Benchmarks,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+145,2410.05361,2024,RespLLM: Unifying Audio and Text with Multimodal LLMs for Generalized Respiratory Health Prediction,X,X,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X,X
+146,2603.01625,2026,Measuring What VLMs Don't Say: Validation Metrics Hide Clinical Terminology Erasure in Radiology Report Generation,X,X,X,X,O,X,X,X,X,X,X,X,X,X,X,X,O,X,X,X,X,X,X,X
+147,2410.03334,2024,An X-Ray Is Worth 15 Features: Sparse Autoencoders for Interpretable Radiology Report Generation,O,X,X,X,O,X,X,X,X,X,O,X,O,X,X,X,O,X,X,X,X,X,X,X
+148,2412.12492,2024,DuSSS: Dual Semantic Similarity-Supervised Vision-Language Model for Semi-Supervised Medical Image Segmentation,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+149,2603.00462,2026,OPGAgent: An Agent for Auditable Dental Panoramic X-ray Interpretation,O,X,X,X,X,X,X,X,O,X,O,X,X,X,X,X,O,X,X,X,O,X,O,X
+150,2510.22728,2025,S-Chain: Structured Visual Chain-of-Thought For Medicine,X,X,X,X,X,O,X,O,X,O,X,X,X,X,X,X,X,O,X,O,X,X,X,X

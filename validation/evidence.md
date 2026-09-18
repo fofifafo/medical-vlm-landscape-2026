@@ -1,4 +1,4 @@
-# 효율 144편 전문 판정 근거 (2026-09-14, 판정: Claude, 규칙: RUBRIC.md)
+# Full-text efficiency audit: evidence sentences for the 144 efficiency-oriented papers (judged 2026-09-14 by Claude Opus 5 under RUBRIC.md)
 
 ## 2502.09838 — HealthGPT: A Medical Large Vision-Language Model for Unifying Comprehension and Generation via Heterogeneous Knowledge Adaptation
 - LAT N (infer N, train N) · HW N · FLOP N · MEM N · ENG N · THR N · PAR Y

@@ -1,4 +1,4 @@
-# Claude 판정 (초록 기준), 열 순서: CXR CT PATH ENDO RPT GND CDS REAS AGT EFF HAL CLIN
+# Criterion-based judgments (Claude Opus 5, title+abstract). Columns in order: chest_xray ct_mri_3d pathology_wsi endoscopy_surgical report_generation grounding_localization clinical_decision reasoning_technique agents_tool_use efficiency_technique hallucination_explicit clinical_validation ; O = tag applies, X = does not
 1 XOXXOXXXOXOX
 2 XXXXOXXXXXOX
 3 XXXXXXXXXXXX

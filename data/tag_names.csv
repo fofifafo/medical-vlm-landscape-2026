@@ -1,0 +1,40 @@
+column,korean_name_in_code,regex
+domain_chest_xray,방사선 — X-ray/CXR,chest x-?ray|\bCXR\b|radiograph|x-?ray
+domain_ct_mri_3d,방사선 — CT/MRI (3D),\bCT\b|\bMRI\b|volumetric|3D medical|computed tomography|magnetic resonance
+domain_pathology_wsi,병리 — 조직/WSI,patholog|histolog|whole[- ]slide|\bWSI\b|biopsy
+domain_ophthalmology,안과 — 안저/OCT,ophthalm|fundus|retina|\bOCT\b
+domain_dermatology,피부과,dermatolog|skin lesion|skin disease
+domain_endoscopy_surgical,내시경·수술 영상,endoscop|surgical (video|scene)|laparoscop|surgery video|colonoscop
+domain_ultrasound,초음파,ultrasound|sonograph|echocardio
+domain_biosignal,생체신호 (ECG/EEG),\bECG\b|\bEKG\b|\bEEG\b|electrocardio
+domain_dental,치과·구강,dental|oral (cavity|health)|tooth|teeth
+domain_ehr_documents,전자의무기록·문서,\bEHR\b|electronic health record|clinical note|discharge summary|medical record
+domain_multimodality,일반/다중 모달리티,multi[- ]?modal medical|across modalities|diverse medical imaging|multiple imaging modalit
+task_report_generation,판독문 생성,report generation|radiology report|generate (a |the )?report|report writing
+task_vqa,의료 VQA,\bVQA\b|visual question answering|question[- ]answering
+task_diagnosis_classification,진단·분류,diagnos|classif|disease (detection|prediction|identification)
+task_grounding_vocabulary,병변 탐지·그라운딩,lesion detection|grounding|localiz|bounding box|abnormality detection
+task_segmentation,분할,segment
+task_retrieval_rag,검색·RAG,retriev|\bRAG\b|retrieval[- ]augmented
+task_clinical_decision,임상 의사결정·추론,clinical (decision|reasoning)|differential diagnosis|treatment (plan|recommend)|triage
+task_medical_education,의학 교육·시험,medical (exam|licens|education)|USMLE|board exam|medical student
+task_patient_communication,환자 소통·상담,patient (communication|education|conversation)|health assistant|chatbot|consultation
+task_surgical_assistance,수술 보조,surgical (assist|guidance|phase|skill)|intraoperative
+method_finetune_general_vlm_llava,범용 VLM 파인튜닝 (LLaVA계),LLaVA|fine[- ]tun\w* (a |the )?(general|open|pretrained)|adapt\w* (a |the )?general
+method_contrastive_pretraining_clip,도메인 사전학습 (CLIP계),BiomedCLIP|MedCLIP|PubMedCLIP|contrastive|CLIP
+method_instruction_data,명령어 튜닝·데이터 구축,instruction[- ]tun|instruction data|instruction[- ]following dataset|curated dataset|we (build|construct|introduce) (a |an )?(new |large[- ]scale )?dataset
+method_retrieval_augmented,검색 증강,retrieval[- ]augmented|\bRAG\b|knowledge (base|graph) (augment|enhanc|inject)
+method_agents_tool_use,에이전트·도구 사용,\bagent|tool[- ]use|tool[- ]calling|multi[- ]agent
+method_reasoning_technique,추론 기법 (CoT/RL/GRPO/DPO),chain[- ]of[- ]thought|reinforcement learning|\bRL\b|\bGRPO\b|\bDPO\b|\bRLHF\b|R1[- ]style|reasoning (model|trace|chain)
+method_reasoning_vocabulary,"추론 언급 (bare, 어휘)",reasoning
+method_efficiency_vocabulary,경량화·효율,efficien|lightweight|quantiz|distill|\bLoRA\b|parameter[- ]efficient|on[- ]device|token (prun|compress)
+method_federated_privacy,연합·프라이버시,federated|privacy[- ]preserving|differential privacy|de[- ]identif
+concern_hallucination_explicit,환각 (명시적),hallucinat
+concern_reliability_vocabulary,신뢰성 어휘 (넓게),hallucinat|factual|faithful|reliab
+concern_benchmark_evaluation,벤치마크·평가,benchmark|evaluation (framework|protocol|suite)|we evaluate|systematic evaluation
+concern_safety_misuse,안전·오용,safety|jailbreak|adversarial|misuse|harm
+concern_fairness_bias,공정성·편향,fairness|demographic|disparit|equit|\bbias(ed)? (against|toward|across)|algorithmic bias|racial|gender bias
+concern_explainability,설명가능성,explainab|interpretab|attention map|saliency
+concern_data_scarcity,데이터 부족·희소,data[- ]scarc|low[- ]resource|few[- ]shot|limited (annotat|label|data)
+concern_clinical_validation_vocabulary,임상 검증·실사용,clinical (validation|trial|deployment|practice)|real[- ]world|prospective|reader study|radiologist(s)? (evaluat|rat|prefer)
+concern_regulation_ethics,규제·윤리,\bregulat(ory|ion|ions|ors?)\b|\bFDA\b|\bethic|accountab|\bliabilit

@@ -1,29 +1,29 @@
-# 효율 144편 전문 판정 기준 (2026-09-14)
+# Full-text efficiency audit rubric (144 efficiency-oriented papers, 2026-09-14)
 
-목적: 표 II를 "초록 기준"에서 "본문 기준"으로 확장. 각 논문·각 항목에 대해 **저자가 자기 시스템을 측정해 보고한 값**이 본문(표·그림·문장)에 있는가만 판정한다.
+Purpose: extend Table II from the abstract level to the full-text level. For each paper and each quantity, judge only whether the body (tables, figures, sentences) reports a value that **the authors measured for their own system**.
 
-## 항목 정의
-| 코드 | 항목 | 인정 | 불인정 |
+## Quantities
+| Code | Quantity | Counts as Y | Does not count |
 |---|---|---|---|
-| LAT | 지연·추론 시간 | 자기 모델의 추론/학습 시간, ms/s per image, 속도 향상 배율(자기 실험) | 인용 논문 수치, "실시간" 같은 형용사만, 학습 epoch 수 |
-| HW | 대상 하드웨어 | 실험에 쓴 GPU/CPU/엣지 기기 명시 | 관련연구의 기기 언급 |
-| FLOP | 연산량 | 자기 모델 FLOPs/MACs 값 | 개념 언급만 |
-| MEM | 메모리 | 자기 모델 GPU 메모리/VRAM/풋프린트 값 | 데이터셋 용량, 모델 파일 크기(비트 단위는 인정) |
-| ENG | 에너지·전력 | 자기 측정 W, J, mWh, 전력/탄소 | "에너지 효율적"이라는 수식어, 배터리 언급만 |
-| THR | 처리량 | 자기 모델 samples/s, QPS, fps | — |
-| PAR | (보조) 파라미터 수 | 총/활성/학습 파라미터 값 | — |
+| LAT | Latency / time | inference or training time of the authors' own model (ms or s per image, speed-up factors from their own experiments) | values cited from other papers; adjectives such as "real-time"; number of training epochs |
+| HW | Target hardware | GPU/CPU/edge device used in the authors' experiments | devices mentioned in related work |
+| FLOP | Compute | FLOPs or MACs of the authors' own model | the concept only |
+| MEM | Memory | GPU memory / VRAM / footprint of the authors' own model | dataset size; model file size (bit-width alone counts as MEM only if a footprint is given) |
+| ENG | Energy / power | measured W, J, mWh, power or carbon of the authors' own system | "energy-efficient" as an adjective; battery mentioned only |
+| THR | Throughput | samples/s, QPS, fps of the authors' own model | — |
+| PAR | (auxiliary) Parameters | total / active / trainable parameter counts | — |
 
-## 판정 값
-- `Y` 본문에 자기 측정값 있음 (근거 문장 발췌 필수)
-- `A` 초록에만 있고 본문에 추가 없음 (초록 감사와 동일)
-- `N` 없음
-- `?` 판독 불가(PDF 변환 실패, 그림 안 숫자만) → 원문 페이지 확인 후 Y/N으로 확정
+## Values
+- `Y` the body reports the authors' own measurement (supporting sentence required)
+- `A` reported in the abstract only, nothing further in the body (same as the abstract-level audit)
+- `N` not reported
+- `?` unreadable (PDF conversion failure, number only inside a figure) → resolved to Y/N after checking the page
 
-## 절 구분 규칙
-- References 이후는 무시. Related work / Background 절의 문장은 타 논문 수치이므로 **불인정**, 단 "we"/"our"가 주어이고 자기 모델 이름이 있으면 인정.
-- 표 안의 수치는 표 캡션·열 이름으로 항목을 판단(예: "Time (s)" 열 → LAT).
+## Section rules
+- Ignore everything after References. Sentences in Related Work / Background describe other papers and do **not** count, unless the subject is "we"/"our" and the authors' own model is named.
+- Numbers in tables are assigned by caption and column name (e.g., a "Time (s)" column → LAT).
 
-## 산출물
-- `audit.csv`: id, title, LAT, HW, FLOP, MEM, ENG, THR, PAR, any_Y, note
-- `evidence.jsonl`: id별 항목별 근거 문장(원문 발췌, 절 이름, 문서 내 위치)
-- 검증용 표본 30편: any_Y 여부로 층화 무작위 → 지유찬 판정과 κ
+## Outputs
+- `audit.csv`: id, title, LAT, HW, FLOP, MEM, ENG, THR, PAR, any_Y, note (plus LAT_infer, the inference-side split)
+- `audit.jsonl`: one line per paper with the supporting sentence for each Y
+- Verification sample: 30 papers stratified by any_Y (15 with / 15 without), all 180 judgments checked by the first author against the stored sentences (`validation_human.json`, `validation_kappa.json`)
